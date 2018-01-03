@@ -1,0 +1,60 @@
+body{
+	background: skyblue;
+}
+
+.contenedor{
+	margin: 0 auto;
+	width: 600px;
+	font-family: sans-serif;
+}
+
+.caja{
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+
+.transicion{
+	transition-duration: .5s;
+	/*transition-property: */
+	/*transition-timing-function:*/
+}
+
+/*Propiedades de opacidad*/
+.opacity{
+	opacity: 0;
+}
+
+.opacity:hover{
+	opacity: 1;
+}
+
+/*Demas propiedades para transiciones*/
+.fuente:hover{
+	font-size: 20px;
+}
+
+.colores:hover{
+	color: white;
+	background-color: black;
+}
+
+/*Transformaciones*/
+.rotacion:hover{
+	transform: rotate(360deg);
+}
+
+.escala:hover{
+	transform: scale(3);
+}
+
+.sesgado:hover{
+	transform: skew(30deg);
+}
+
+.traslacion:hover{
+	transform: translateX(45px);
+}
+
+.mixtas:hover{
+	transform: rotate(120deg) scale(3) skew(20deg);
